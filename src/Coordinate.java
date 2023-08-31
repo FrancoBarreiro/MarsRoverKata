@@ -34,4 +34,5 @@ public class Coordinate {
                 ", y=" + y +
                 '}';
     }
+
 }

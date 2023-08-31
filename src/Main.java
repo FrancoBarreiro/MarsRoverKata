@@ -9,5 +9,11 @@ public class Main {
 
         Rover rover = GridConfig.createRover(grid, obstacleList);
 
+        String indications = "LFFRFB";
+
+        if(RoverControl.addIndications(indications)){
+            RoverControl.move(indications, grid, obstacleList, rover);
+        }
+
     }
 }
